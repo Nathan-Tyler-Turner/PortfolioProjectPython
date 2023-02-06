@@ -14,3 +14,6 @@ I have provided some logical checks and minor modifications throughout. This cod
 The movie correlation data project is used as a means to practice some data manipulation and to find various correlations across the dataset. 
 Numerous plots were generated from scatterplots with correlation lines as well as multiple heatmaps were created to better help visualize the data.
 I also wanted to play around with modifying datatypes and make comparisons between values in datasets that were outside the realm of bioinformatics.
+
+
+the alignPos, filterSig, lineCvg, parseConsensus, printAllPos, printBasesBwa, printConsensus, pullMutsConsensus, and pullMutsCvg are all files that I have been working on converting from Perl to Python, they are used regularly in my lab to handle mpileup data processing, they can be customized for quality score selection and amount of shared mutations across any number of cell lines. Collectively they make up a pipeline my lab has developed to automatically process mpileup data for mutation detection and processing with the aid of some bash scripts and select input files.
